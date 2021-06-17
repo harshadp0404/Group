@@ -1,11 +1,17 @@
 body{
 margin:0;
 padding-top: 800px;
-text-align: center
+text-align: center;
+background-color:#A0DAA9
+
 }
 .profile{
 border-radius: 50%;
 width: 300px;
+margin-bottom: 50px;
+}
+.riddleimage{
+width: 200px;
 margin-bottom: 50px;
 }
 #sec-1{
@@ -18,10 +24,15 @@ bottom:0;
 display: table;
 width:100%;
 height:100%;
-background: linear-gradient(#A0DAA9 0%, #E9897E 100%);
-text-align: center
+text-align: center;
 }
-
+#riddles{
+text-align: left
+}
+#ranswers{
+background: linear-gradient(#A0DAA9 0%, #E9897E 100%);
+text-align: left
+}
 .line{
 height:10px;
 background-color:black;
@@ -50,9 +61,26 @@ font-family:sans-serif;
 font-size: 25px
 }
 .links:hover{
-background-color:black;
 color: white
 }
 #jokes{
 background-color:lightgoldenrodyellow; 
 }
+img {
+  width: 40%;
+  height: auto;
+}
+#funfactsheader{
+text-align: center
+}
+#jokesheader{
+text-align: center;
+background-color: #A0DAA9;
+}
+#riddlesheader{
+background-color: ;
+}
+#riddles{
+background-color: 
+}
+
